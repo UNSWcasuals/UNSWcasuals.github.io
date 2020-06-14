@@ -3,7 +3,7 @@ layout: post
 title: "UNSW Casuals Survey Report"
 ---
 
-Last week, we released the results of a survey conducted in April of casual staff at UNSW. The report includes some staggering but unsurprising findings: casuals are already the prime collateral as UNSW seeks to restructure work at the university in order to cut costs. We found that:
+Last week we released the results of a survey conducted in April of casual staff at UNSW. The report includes some staggering but unsurprising findings: casuals are already the prime collateral as UNSW seeks to restructure work at the university in order to cut costs. We found that:
 
 * 1 in 3 UNSW casual workers had already lost work as a result of COVID-19
 
