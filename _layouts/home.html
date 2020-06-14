@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  <div class="home-content">
+    <p>The UNSW Casuals Network is a grassroots organisation of casualised and insecure staff at UNSW, fighting for job security and better working conditions.</p>
+    <p>You can contact us via our <a href="https://www.facebook.com/UNSW-Casuals-Network-111069980586389/">Facebook page</a>, <a href="https://twitter.com/UNSWcasuals">Twitter</a>, or <a href="/contact">email</a>.</p>
+    <p>Our report on UNSW casual workers during COVID-19 is available <a href="https://drive.google.com/file/d/1aiXDTewJF9f1-PRKtvnpBmSAw4qW2kMR/view">here</a>.</p>
+    <p>Read our article published in <a href="https://overland.org.au/2020/05/no-concessions-why-university-workers-must-fight-for-all-jobs/?fbclid=IwAR0rSeCAPl9wOSeq-cnAZZz3hHa17OiVB0wvGS8lNF4IH3L-lFgEKEp5sv0">Overland</a>.</p>
+  </div>
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <div class="home-posts">
+      <div class="socmedia-links">
+        <h2>
+          <a href="https://www.facebook.com/UNSW-Casuals-Network-111069980586389/"><i class='fa fa-facebook-square'></i></a>
+          <a href="https://twitter.com/UNSWcasuals"><i class='fa fa-twitter-square'></i></a>
+          <!--<a href=""><i class='fa fa-instagram'></i></a>-->
+          <a href="/contact"><i class='fa fa-envelope-o'></i></a>
+        </h2>
+      </div><!-- socmedia-links -->
+
+      <h3 class="post-list-heading">{{ page.list_title | default: "Our Posts" }}</h3>
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <h4 class="post-title">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h4>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    </div> <!-- home-posts -->
+    <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>-->
+  {%- endif -%}
+
+</div>
