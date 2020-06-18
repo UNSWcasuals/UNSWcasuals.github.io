@@ -24,3 +24,5 @@ You can contact us via [email](https://www.unswcasuals.net/contact), [Twitter](h
     <a href="/contact"><i class='fa fa-envelope-o'></i></a>
   </h2>
 </div><!-- socmedia-links -->
+
+<p><a href="{{ "/" | relative_url }}">Home</a></p>
