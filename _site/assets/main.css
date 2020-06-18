@@ -2,7 +2,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 23px/1.5 "DM Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #f67f7f; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; background-image: linear-gradient(to right, #f67f7f, lightblue); background: #f67f7f; background: linear-gradient(135deg, #f67f7f, lightblue); font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: 400 23px/1.5 "DM Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #f67f7f; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; background-image: linear-gradient(to right, #f67f7f, lightblue); background: #f67f7f; background: linear-gradient(150deg, #f67f7f, lightblue); font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -84,7 +84,17 @@ table td { border: 1px solid #111; }
 
 .site-title, .site-title:visited { color: #111; }
 
-@media screen and (max-width: 670px) { .site-title { font-size: 46px; } }
+@media screen and (max-width: 670px) { .site-title { font-size: 50.6px; padding-top: 70px; } }
+
+.about { font-size: 23px; position: absolute; display: block; float: right; top: -140px; right: 20px; }
+
+@media screen and (max-width: 850px) { .about { position: absolute; top: -140px; right: -5px; } }
+
+@media screen and (max-width: 670px) { .about { display: none; } }
+
+.mobile-about { display: none; }
+
+@media screen and (max-width: 670px) { .mobile-about { display: block; position: absolute; top: 20px; right: 15px; } }
 
 .site-nav { float: right; line-height: 77.625px; }
 
@@ -145,7 +155,9 @@ input[type=submit]:hover { background-color: #f67f7f; }
 
 @media screen and (max-width: 670px) { .socmedia-links { text-align: center; font-size: 41.4px; margin-bottom: 54px; } }
 
-.home-posts { width: 24%; float: right; }
+.about-socmedia-links { margin-top: 46px; text-align: center; font-size: 92px; margin-bottom: 30px; }
+
+.home-posts { position: relative; width: 24%; float: right; }
 
 .home-posts .post-list-heading { display: none; }
 

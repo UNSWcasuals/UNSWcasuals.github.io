@@ -18,13 +18,41 @@
   margin-bottom: 0;
   padding: 50px 0 30px 0;
   float: left;
-
   &,
   &:visited {
     color: $grey-color-dark;
   }
   @include media-query($on-palm) {
-    font-size: $base-font-size * 2;
+    font-size: $base-font-size * 2.2;
+    padding-top: 70px;
+  }
+}
+
+.about {
+  font-size: $base-font-size;
+  position: absolute;
+  display: block;
+  float: right;
+  top: -140px;
+  right: 20px;
+  @include media-query($on-laptop){
+    position: absolute;
+    top: -140px;
+    right: -5px;
+  }
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
+.mobile-about{
+  display: none;
+  @include media-query($on-palm) {
+    display: block;
+    //font-size: $base-font-size;
+    position: absolute;
+    top: 20px;
+    right: 15px;
   }
 }
 
@@ -248,8 +276,15 @@ input[type=submit]:hover {
   }
 }
 
+.about-socmedia-links {
+  margin-top: $base-font-size * 2;
+  text-align: center;
+  font-size: $base-font-size * 4;
+  margin-bottom: $spacing-unit * 1;
+}
 
 .home-posts {
+  position: relative;
   width: 24%;
   float: right;
   .post-list-heading {display: none;}
