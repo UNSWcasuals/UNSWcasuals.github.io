@@ -2,7 +2,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 23px/1.5 "DM Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #f67f7f; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; background-image: linear-gradient(to right, #f67f7f, lightblue); background: #f67f7f; background: linear-gradient(150deg, #f67f7f, lightblue); font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: 400 23px/1.5 "DM Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #f67f7f; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; background-image: linear-gradient(to right, #f67f7f, lightblue); background: #f67f7f; background: linear-gradient(155deg, #f67f7f, lightblue); font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
