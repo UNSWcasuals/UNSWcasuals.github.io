@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Banner Image](/assets/img/unswcasuals-banner.png)<br><br>
+![A protest sign with the words 'Casuals Say No Cuts, Full Public Funding' hanging from a UNSW campus billboard](/assets/img/unswcasuals-banner.png)<br><br>
 
 If you’re a uni casual, a casualised worker, sessional staff, working a gig at the uni, one of the precariat - however you call it - you’ll likely be familiar with late contracts, uncertainty about your future employment, and tired of working unpaid hours.
 
