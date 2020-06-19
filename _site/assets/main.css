@@ -208,6 +208,8 @@ input[type=submit]:hover { background-color: #f67f7f; }
 
 @media screen and (max-width: 850px) { .post-content h4 { font-size: 25.875px; } }
 
+.post-content img { mix-blend-mode: multiply; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 

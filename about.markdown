@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![Banner Image](/assets/img/unswcasuals-banner.png)<br><br>
+
 If you’re a uni casual, a casualised worker, sessional staff, working a gig at the uni, one of the precariat - however you call it - you’ll likely be familiar with late contracts, uncertainty about your future employment, and tired of working unpaid hours.
 
 Maybe you are here because you also find yourself experiencing a troubling mix of exhaustion and alienation, pleasure and enthusiasm (it does happen), combined with frustration about not having sick pay, holidays or job security.
@@ -26,5 +28,6 @@ You can contact us via [email](https://www.unswcasuals.net/contact), [Twitter](h
     <a href="/contact"><i class='fa fa-envelope-o'></i></a>
   </h2>
 </div><!-- socmedia-links -->
+
 
 <p><a href="{{ "/" | relative_url }}">Home</a></p>
