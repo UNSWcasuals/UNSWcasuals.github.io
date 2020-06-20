@@ -149,11 +149,17 @@ input[type=submit]:hover { background-color: #f67f7f; }
 
 @media screen and (max-width: 670px) { .home-content { width: 100%; margin-bottom: 0; } }
 
-.socmedia-links { font-size: 27.6px; }
+.socmedia-links { font-size: 27.6px; margin-bottom: 18px; }
 
 @media screen and (max-width: 850px) { .socmedia-links { font-size: 23px; } }
 
 @media screen and (max-width: 670px) { .socmedia-links { text-align: center; font-size: 41.4px; margin-bottom: 54px; } }
+
+.socmedia-icon { width: 51px; height: 51px; }
+
+@media screen and (max-width: 850px) { .socmedia-icon { width: 36px; height: 36px; } }
+
+@media screen and (max-width: 670px) { .socmedia-icon { width: 70px; height: 70px; margin-bottom: 30px; } }
 
 .about-socmedia-links { margin-top: 46px; text-align: center; font-size: 92px; margin-bottom: 30px; }
 
@@ -209,6 +215,12 @@ input[type=submit]:hover { background-color: #f67f7f; }
 @media screen and (max-width: 850px) { .post-content h4 { font-size: 25.875px; } }
 
 .post-content img { mix-blend-mode: multiply; }
+
+.post-content .socmedia-links { margin: 60px 0 54px 0; text-align: center; }
+
+.post-content .socmedia-icon { height: 70px; width: 70px; }
+
+@media screen and (max-width: 670px) { .post-content .socmedia-icon { height: 60px; width: 60px; } }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }

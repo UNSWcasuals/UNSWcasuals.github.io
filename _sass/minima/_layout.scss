@@ -265,6 +265,7 @@ input[type=submit]:hover {
 
 .socmedia-links {
   font-size: $base-font-size * 1.2;
+  margin-bottom: $spacing-unit * .6;
   @include media-query($on-laptop) {
     font-size: $base-font-size * 1;
   }
@@ -273,6 +274,20 @@ input[type=submit]:hover {
     text-align: center;
     font-size: $base-font-size * 1.8;
     margin-bottom: $spacing-unit * 1.8;
+  }
+}
+
+.socmedia-icon {
+  width: 51px;
+  height: 51px;
+  @include media-query($on-laptop) {
+    width: 36px;
+    height: 36px;
+  }
+  @include media-query($on-palm) {
+    width: 70px;
+    height: 70px;
+    margin-bottom: $spacing-unit;
   }
 }
 
@@ -399,5 +414,19 @@ input[type=submit]:hover {
 
   img {
     mix-blend-mode: multiply;
+  }
+
+  .socmedia-links {
+    margin: $spacing-unit*2 0 $spacing-unit*1.8 0;
+    text-align: center;
+  }
+
+  .socmedia-icon {
+    height: 70px;
+    width: 70px;
+    @include media-query($on-palm) {
+      height: 60px;
+      width: 60px;
+    }
   }
 }
