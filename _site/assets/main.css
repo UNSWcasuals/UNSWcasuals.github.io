@@ -1,3 +1,9 @@
+@font-face { font-family: 'DM Mono'; src: url("fonts/DMMono-Medium.woff2") format("woff2"), url("fonts/DMMono-Medium.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'DM Mono'; src: url("fonts/DMMono-Regular.woff2") format("woff2"), url("fonts/DMMono-Regular.woff") format("woff"); font-weight: normal; font-style: normal; font-display: swap; }
+
+@font-face { font-family: 'DM Mono'; src: url("fonts/DMMono-Italic.woff2") format("woff2"), url("fonts/DMMono-Italic.woff") format("woff"); font-weight: normal; font-style: italic; font-display: swap; }
+
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
