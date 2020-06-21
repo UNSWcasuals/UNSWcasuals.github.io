@@ -82,7 +82,7 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
+    background-color: $background-color1;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
@@ -156,7 +156,7 @@ input[type=submit] {
   font-family: $base-font-family;
   font-size: $small-font-size;
   float:right;
-  background-color: lightblue;
+  background-color: $background-color2;
   color: $text-color;
   padding: 12px 20px;
   border: none;
@@ -164,9 +164,9 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a second color */
 input[type=submit]:hover {
-  background-color: #f67f7f;
+  background-color: $background-color1;
 }
 
 

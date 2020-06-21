@@ -122,7 +122,7 @@ input[type=text], input[type=email], select, textarea { font-family: "DM Mono", 
 /* Style the submit button with a specific background color etc */
 input[type=submit] { font-family: "DM Mono", -apple-system, "Lucida Console", Monaco, monospace, sans-serif; font-size: 18.4px; float: right; background-color: lightblue; color: #111; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a second color */
 input[type=submit]:hover { background-color: #f67f7f; }
 
 /** Site footer */
