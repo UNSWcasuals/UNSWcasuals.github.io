@@ -10,3 +10,4 @@ We are members of:
 * [NTEU](http://www.nteu.org.au/) - National Tertiary Education Union
 * [NHEAN](https://www.facebook.com/groups/NHEActionNetwork/?ref=br_rs) - National Higher Education Action Network
 * [NHECN](https://www.facebook.com/NHECN/?ref=br_rs) - National Higher Education Casuals Network
+* [Student Fightback](https://www.facebook.com/StudentFightback/)
