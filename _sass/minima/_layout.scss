@@ -132,6 +132,13 @@
   }
 }
 
+.more-posts {
+  font-size: $small-font-size;
+  @include media-query($on-palm) {
+    font-size: $base-font-size;
+  }
+}
+
 /// Contact form
 .container {
   margin-bottom: $spacing-unit * 3;
@@ -368,6 +375,17 @@ input[type=submit]:hover {
       line-height: $spacing-unit * 1.8;
     }
   }
+}
+
+
+
+.archive .post-title {
+  line-height: $spacing-unit;
+  margin: 0;
+}
+
+.archive > li {
+  margin-bottom: $spacing-unit * .5;
 }
 
 .post-header {
