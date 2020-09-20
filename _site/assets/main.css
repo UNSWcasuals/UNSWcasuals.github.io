@@ -132,7 +132,7 @@ input[type=submit]:hover { background-color: #f67f7f; }
 /** Site footer */
 .footer-note { font-size: 16px; }
 
-.site-footer { text-align: center; border-top: 1px solid #111; padding: 15px; }
+.site-footer { text-align: center; border-top: 1px solid #111; padding: 9px; }
 
 .site-footer .footer-note { margin: 0; }
 
