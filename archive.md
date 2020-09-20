@@ -19,3 +19,5 @@ permalink: /archive/
   </li>
   {%- endfor -%}
 </ul>
+<br>
+<p><a href="{{ "/" | relative_url }}">Home</a></p>

@@ -30,7 +30,7 @@
 // Define defaults for each variable.
 
 $base-font-family: 'DM Mono',-apple-system, "Lucida Console", Monaco, monospace, sans-serif !default;
-$base-font-size:   23px !default;
+$base-font-size:   20px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.8 !default;
 $base-line-height: 1.5 !default;
@@ -38,6 +38,7 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
+$white:            #f0f0f0 !default;
 $background-color: #f67f7f !default;
 $background-color1: $background-color !default;
 $background-color2: lightblue !default;

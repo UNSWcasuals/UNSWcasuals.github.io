@@ -188,8 +188,12 @@ input[type=submit]:hover {
 }
 
 .site-footer {
+  text-align: center;
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit * .5;
+  .footer-note {
+    margin: 0;
+  }
 }
 
 .footer-heading {
@@ -260,13 +264,33 @@ input[type=submit]:hover {
 
 .home-content {
   margin-bottom: $spacing-unit * 1.5;
-  width: 70%;
+  width: 65%;
   float: left;
-  p {margin-bottom: $spacing-unit;}
+  p {margin-bottom: $spacing-unit * .8;}
 
   @include media-query($on-palm) {
     width: 100%;
     margin-bottom: 0;
+  }
+}
+
+hr {
+  border-top: 1px solid $text-color;
+  border-bottom: 0;
+  margin: $spacing-unit * 1.5 0;
+}
+
+
+.class-size {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: $spacing-unit * 1.2;
+  text-align: center;
+  border: 2px solid $text-color;
+  padding: $spacing-unit;
+  border-radius: 5px;
+  p {
+   margin: 0;
   }
 }
 
