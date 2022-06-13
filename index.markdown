@@ -13,6 +13,6 @@ The UNSW Casuals Network is a grassroots organisation of casualised and insecure
 
 * Visit our [UNSW Class Size Search](https://classes.unswcasuals.net/) and read the [report](https://drive.google.com/file/d/15J7hL__-Twgy9aprSTP9HxuylRNw6ixj/view?usp=sharing) we wrote based on what we found.
 
-We currently (as of Term 1 2022) meet every odd Monday at 5pm.
+We currently (as of Term 2 2022) do not have regular meetings, but get in contact!
 
 You can contact us via our [Facebook page](https://www.facebook.com/UNSW-Casuals-Network-111069980586389/), [Twitter](https://twitter.com/UNSWcasuals), or [email](/contact).
